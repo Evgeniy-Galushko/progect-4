@@ -1,0 +1,122 @@
+.welcomeSection {
+  max-width: 343px;
+  width: 100%; 
+  margin: 0 auto;
+  padding: 24px 16px 67px;
+  border-radius: 30px;
+  background-color: var(--background-color);
+}
+@media (min-width: 768px) {
+  .welcomeSection {
+    max-width: 704px;
+    padding:32px 64px 50px;
+  }
+}
+
+.welcomeText {
+  margin-top: 18px;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: -0.06em;
+  color: var(--main-text-color);
+}
+
+@media (min-width: 768px) {
+  .welcomeText {
+    font-size: 16px;
+    line-height: 150%;
+  }
+}
+@media (min-width: 1440px) {
+  .welcomeText {
+    margin-top: 132px;
+  }
+}
+
+.welcomeTitle {
+  margin-top: 16px;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  color: var(--grey-color);
+}
+
+@media (min-width: 768px) {
+  .welcomeTitle {
+    font-size: 64px;
+    line-height: 109%;
+  }
+}
+@media (min-width: 1440px) {
+  .welcomeTitle {
+    font-size: 80px;
+    line-height: 95%;
+  }
+}
+
+.welcomeBtn {
+  display: flex;
+  gap: 10px;
+  margin-top: 32px;
+}
+@media (min-width: 768px) {
+  .welcomeBtn {
+    gap: 16px;
+  }
+}
+@media (min-width: 1440px) {
+}
+
+.btnTracker {
+  padding: 14px 19px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+  background: var(--accent-color);
+  color: var(--grey-color);
+  text-decoration: none;
+  transition: background-color 150ms ease-in;
+}
+.btnTracker:hover,
+.btnTracker:focus {
+  background-color: #87d28d;
+}
+@media (min-width: 768px) {
+  .btnTracker {
+    padding: 18px 40px;
+    font-size: 16px;
+    line-height: 150%;
+  }
+}
+@media (min-width: 1440px) {
+}
+.btnSignIn {
+  padding: 14px 28px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.01em;
+  color: var(--grey-color);
+  border: 1px solid var(--main-text-color);
+  border-radius: 30px;
+  text-decoration: none;
+  transition: border 150ms ease-in, color 150ms ease-in;
+}
+
+.btnSignIn:hover,
+.btnSignIn:focus {
+  color: #87d28d;
+  border: 1px solid #87d28d;
+}
+@media (min-width: 768px) {
+  .btnSignIn {
+    padding: 18px 40px;
+    font-size: 16px;
+    line-height: 150%;
+  }
+}
+@media (min-width: 1440px) {
+}
