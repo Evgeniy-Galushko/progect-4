@@ -1,11 +1,12 @@
 import React from "react";
 import WaterMainInfo from "../../components/WaterMainInfo/WaterMainInfo";
 import WaterDetailedInfo from "../../components/WaterDetailedInfo/WaterDetailedInfo";
-import s from "./TrackerPage.module.css";
+import css from "./TrackerPage.module.css";
 
 const TrackerPage = () => {
   return (
-    <div className={s.trackerPageWrapper}>
+    <div className={css.trackerPageWrapper}>
+      {/* <h1>Трекер води</h1> */}
       <WaterMainInfo />
       <WaterDetailedInfo />
     </div>
